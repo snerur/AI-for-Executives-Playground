@@ -1,0 +1,6 @@
+{
+  "name": "Vanguard AI: Executive Mastery & Strategy",
+  "description": "Executive AI learning platform featuring gamified boardroom microlearning, peer benchmarking, enterprise AI maturity diagnostic with roadmaps, case study library with offline briefcase, and a real-time AI strategic mentor for senior executives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

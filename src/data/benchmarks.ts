@@ -1,0 +1,118 @@
+import { IndustryBenchmark } from '../types';
+
+export const INDUSTRY_BENCHMARKS: Record<string, IndustryBenchmark> = {
+  'Financial Services': {
+    industry: 'Financial Services',
+    aiBudgetPctIT: 14.8,
+    avgMonthsToProduction: 7.2,
+    genAiHeadcountPct: 8.5,
+    modelStrategy: {
+      commercialApi: 42,
+      openWeightPrivate: 38,
+      customBespoke: 20,
+    },
+    roiRealizationTimelineMonths: 11.4,
+    governanceMaturityScore: 84,
+    keyPriorities: [
+      'Regulatory compliance (EU AI Act & SEC transparency)',
+      'Automated fraud and transaction surveillance',
+      'Private cloud sovereign data architectures',
+      'Underwriting cycle acceleration',
+    ],
+  },
+  'Healthcare & Life Sciences': {
+    industry: 'Healthcare & Life Sciences',
+    aiBudgetPctIT: 12.2,
+    avgMonthsToProduction: 9.8,
+    genAiHeadcountPct: 6.9,
+    modelStrategy: {
+      commercialApi: 32,
+      openWeightPrivate: 44,
+      customBespoke: 24,
+    },
+    roiRealizationTimelineMonths: 14.2,
+    governanceMaturityScore: 89,
+    keyPriorities: [
+      'FDA AI validation protocols & clinical audit trails',
+      'Generative molecular biology & target discovery',
+      'Patient privacy & zero-retention HIPAA boundaries',
+      'Clinical documentation automation',
+    ],
+  },
+  'Manufacturing & Industrial Tech': {
+    industry: 'Manufacturing & Industrial Tech',
+    aiBudgetPctIT: 9.6,
+    avgMonthsToProduction: 8.4,
+    genAiHeadcountPct: 5.4,
+    modelStrategy: {
+      commercialApi: 35,
+      openWeightPrivate: 48,
+      customBespoke: 17,
+    },
+    roiRealizationTimelineMonths: 10.1,
+    governanceMaturityScore: 71,
+    keyPriorities: [
+      'Industrial edge compute & factory floor copilots',
+      'Predictive maintenance & digital twin simulations',
+      'Supply chain inventory optimization',
+      'PLC automation code generation',
+    ],
+  },
+  'Retail & Consumer Goods': {
+    industry: 'Retail & Consumer Goods',
+    aiBudgetPctIT: 11.4,
+    avgMonthsToProduction: 5.6,
+    genAiHeadcountPct: 7.1,
+    modelStrategy: {
+      commercialApi: 58,
+      openWeightPrivate: 31,
+      customBespoke: 11,
+    },
+    roiRealizationTimelineMonths: 7.8,
+    governanceMaturityScore: 66,
+    keyPriorities: [
+      'Dynamic inventory and freight logistics routing',
+      'Hyper-personalized omni-channel customer experiences',
+      'Automated supplier catalog ingestion and matching',
+      'Demand elasticity forecasting',
+    ],
+  },
+  'Technology & Software': {
+    industry: 'Technology & Software',
+    aiBudgetPctIT: 21.5,
+    avgMonthsToProduction: 4.1,
+    genAiHeadcountPct: 15.2,
+    modelStrategy: {
+      commercialApi: 48,
+      openWeightPrivate: 39,
+      customBespoke: 13,
+    },
+    roiRealizationTimelineMonths: 5.9,
+    governanceMaturityScore: 78,
+    keyPriorities: [
+      'Developer productivity & autonomous test suites',
+      'Multi-agent product features & workflows',
+      'Inference OpEx optimization & model cascading',
+      'Proprietary platform moat defense',
+    ],
+  },
+  'Energy & Utilities': {
+    industry: 'Energy & Utilities',
+    aiBudgetPctIT: 8.3,
+    avgMonthsToProduction: 10.5,
+    genAiHeadcountPct: 4.8,
+    modelStrategy: {
+      commercialApi: 28,
+      openWeightPrivate: 54,
+      customBespoke: 18,
+    },
+    roiRealizationTimelineMonths: 13.6,
+    governanceMaturityScore: 82,
+    keyPriorities: [
+      'Grid load prediction & renewable dispatch balance',
+      'Critical infrastructure physical security',
+      'Field service technician maintenance assistants',
+      'Geological seismic data interpretation',
+    ],
+  },
+};
